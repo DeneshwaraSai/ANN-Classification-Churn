@@ -1,0 +1,16 @@
+ipykernel
+pandas
+numpy 
+matplotlib
+seaborn
+flask
+streamlit
+watchdog
+plotly
+scikit-learn
+nltk
+gensim
+
+tensorflow==2.19.0
+keras
+tensorboard
