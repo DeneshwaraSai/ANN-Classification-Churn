@@ -16,7 +16,7 @@ with open('scalar.pkl', 'rb') as file:
     scalar = pickle.load(file)
 
 ## streamlit app
-st.title('Customer Churn PRediction') 
+st.title('Customer Churn Prediction') 
 
 creditScore = st.slider('CreditScore', 500, 900)
 geography = st.selectbox('Geography',  oneHotEncoder_geo.categories_[0] )
